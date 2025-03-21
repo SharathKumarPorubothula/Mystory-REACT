@@ -1,0 +1,10 @@
+
+.page-container {
+  opacity: 1;
+  transition: opacity 2s ease-in-out;
+}
+
+/* Add a class for smooth fade-out and fade-in */
+.page-container.fade-out {
+  opacity: 0;
+}
